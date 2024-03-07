@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    margin-top: 3vmin;
+}
+button{
+    background-color: white;
+    color: rgba(176, 65, 62,1);
+    border-radius: 3vmin;
+}
+.box {
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 4vmin;
+    font-size: 7vmin;
+}
+
+h1 {
+    font-size: 5vmin;
+    height: 5vh;
+    margin-top: 5vh;
+}
+
+.winner-container {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22vh;
+}
+
+.winner {
+    width: 100%;
+    height: 50%;
+    font-size: 10vmin;
+}
+
+.button1{
+    position: absolute;
+    top: 76vmin;
+    width: 55vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button3{
+    position: absolute;
+    top: 85vmin;
+}
+#play-time{
+    font-size: 3vmin;
+    padding: 1vmin;
+}
+#restart{
+    font-size: 4vmin;
+    padding: 1vmin;
+}
+#play-with{
+    font-size: 3vmin;
+    padding: 1vmin;
+}
+.button2{
+    position: absolute;
+    z-index: 999;
+    bottom: 45vmin;
+}
+#play-again{
+    font-size: 4vmin;
+    padding: 1vmin;
+    z-index: 999;
+}
+.blurBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    z-index: 999;
+}
+.blurBox{
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 500;
+    color: rgba(176, 65, 62,0.1);
+}
+.blur-h1{
+    color: rgba(57, 51, 51, 0.4)
+}
